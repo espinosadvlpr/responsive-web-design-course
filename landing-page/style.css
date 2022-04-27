@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.header-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
